@@ -1,0 +1,696 @@
+INFO - 2023-11-18 00:07:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:07:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:07:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:09:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:13:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:17:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 00:17:54 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Admin.php on line 76.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 00:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 00:22:33 --> Trying to access array offset on value of type null
+in APPPATH\Views\preference.php on line 4.
+ 1 APPPATH\Views\preference.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Views\preference.php(31): setSelected()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\preference.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Preferences.php(19): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Preferences->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 00:22:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 00:36:18 --> foreach() argument must be of type array|object, null given
+in APPPATH\Controllers\Preferences.php on line 39.
+ 1 APPPATH\Controllers\Preferences.php(39): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Preferences->submit()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 00:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:43:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 00:43:45 --> syntax error, unexpected token "endforeach", expecting end of file
+in APPPATH\Views\admin\users\info.php on line 12.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Admin.php(61): view()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->showUsers()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 00:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:45:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:45:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 00:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:28:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:31:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 14:34:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 15:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 15:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 16:50:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 17:06:11 --> syntax error, unexpected token "echo"
+in APPPATH\Views\admin\users\access.php on line 20.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Admin.php(78): view()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->showUserPrivileges()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 17:07:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:14:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:27:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:29:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:33:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:37:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:38:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:46:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 17:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:02:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:03:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:03:40 --> Undefined variable $username
+in APPPATH\Views\admin\users\access.php on line 4.
+ 1 APPPATH\Views\admin\users\access.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\admin\\users\\access.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 5 APPPATH\Controllers\Admin.php(113): view()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->submitUserPrivileges()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:04:46 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:04:47 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:04:48 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:04:49 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:04:50 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:04:50 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:04:50 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:04:54 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:05:00 --> syntax error, unexpected variable "$privilegesModel"
+in APPPATH\Controllers\Admin.php on line 110.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists()
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:06:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:10:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:11:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:11:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 18:12:23 --> "" is not a valid rule.
+in SYSTEMPATH\Validation\Validation.php on line 319.
+ 1 SYSTEMPATH\Validation\Validation.php(319): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH\Validation\Validation.php(197): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH\Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH\Controllers\Admin.php(98): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->submitUserPrivileges()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 18:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:13:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 18:13:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:21:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:24:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:26:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:26:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 20:30:58 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1726.
+ 1 SYSTEMPATH\BaseModel.php(1726): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset()
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray()
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update()
+ 4 APPPATH\Controllers\Admin.php(104): CodeIgniter\Model->update()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->submitUserPrivileges()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 20:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:35:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 20:45:38 --> Invalid file: "/admin/users/test/access.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 3 APPPATH\Controllers\Admin.php(115): view()
+ 4 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Admin->submitUserPrivileges()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 20:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:46:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:47:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:48:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 20:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-11-18 21:07:47 --> mysqli_sql_exception: No database selected in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(626): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(296): CodeIgniter\Database\MigrationRunner->removeHistory()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(86): CodeIgniter\Database\MigrationRunner->regress()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-18 21:08:36 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci_4_crud' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci_4_crud' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2023-11-18 21:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:10:13 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:10:16 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:10:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:10:16 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:10:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:10:28 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:10:29 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:11:15 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:11:16 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:18:47 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:18:49 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:18:49 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:18:53 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:24:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:25:09 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-11-18 21:25:10 --> foreach() argument must be of type array|object, null given
+in APPPATH\Views\layout.php on line 21.
+ 1 APPPATH\Views\layout.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\app\\Views\\layout.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(244): CodeIgniter\View\View->render()
+ 5 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render()
+ 6 APPPATH\Controllers\Dashboard.php(11): view()
+ 7 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\oliwo\\OneDrive - Blackdown Education Partnership\\codeigniter4\\ci-4-user-login-registration\\public\\index.php')
+INFO - 2023-11-18 21:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:27:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:28:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:30:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:32:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:32:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:34:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:36:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:39:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 21:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 22:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 22:00:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 22:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-18 22:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

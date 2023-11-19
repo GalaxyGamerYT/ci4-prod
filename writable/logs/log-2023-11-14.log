@@ -1,0 +1,77 @@
+ERROR - 2023-11-14 21:36:35 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci_4_crud' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci_4_crud' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+ERROR - 2023-11-14 21:36:40 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ci_4_crud' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:184
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(184): mysqli->real_connect()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ci_4_crud' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(392): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1410): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(1429): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(764): CodeIgniter\Database\BaseConnection->tableExists()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(168): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+INFO - 2023-11-14 22:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:18:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:20:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:20:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:26:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-11-14 22:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
