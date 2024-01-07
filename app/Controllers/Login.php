@@ -9,6 +9,12 @@ use App\Models\UsersModel;
 
 class Login extends BaseController
 {
+
+    public function __construct()
+    {
+        helper(['form']);
+    }
+
     public function index()
     {
         return view('login');
@@ -16,6 +22,8 @@ class Login extends BaseController
 
     public function authenticate()
     {
+        $session = session();
+        $session->set('log','False');
         $rules = [
             'username' => ['rules' => 'required|min_length[4]|max_length[255]|is_unique[users.username]'],
             'email' => ['rules' => 'required|min_length[4]|max_length[255]|valid_email|is_unique[users.email]'],
@@ -23,7 +31,7 @@ class Login extends BaseController
         ];
 
         if($this->validate($rules)){
-            $session = session();
+            $session->set('log','True');
             $usersModel = new UsersModel();
             $preferencesModel = new PreferencesModel;
             $privilegesModel = new PrivilegesModel;
