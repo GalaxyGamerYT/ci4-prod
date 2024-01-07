@@ -1,0 +1,7 @@
+deployment:
+  task:
+    - export PUBLICPATH=/home/public_html/
+    - export DEPLOYPATH=/home/ci4_production/
+    - /bin/cp -R public $PUBLICPATH
+    - /bin/cp -R app $DEPLOYPATH
+    - /bin/cp -R tests $DEPLOYPATH
