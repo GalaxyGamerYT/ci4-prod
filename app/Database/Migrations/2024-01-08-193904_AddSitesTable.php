@@ -4,46 +4,41 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class AddUsersTable extends Migration
+class AddSitesTable extends Migration
 {
     public function up()
     {
         $this->forge->addField([
-            'user_id' => [
+            'site_id' => [
                 'type' => 'BIGINT',
                 'constraint' => 255,
                 'unsigned' => true,
                 'auto_increment' => true,
             ],
-            'username' => [
+            'site_name' => [
                 'type' => 'VARCHAR',
+                'constraint' => 255,
                 'unique' => true,
-                'constraint' => '255',
             ],
-            'email' => [
+            'site_link' => [
                 'type' => 'VARCHAR',
-                'unique' => true,
-                'constraint' => '255',
+                'constraint' => 255,
             ],
-            'password' => [
-                'type'=> 'VARCHAR',
-                'constraint' => '255',
-            ],
-            'created_at' => [
+            'added_at' => [
                 'type' => 'TIMESTAMP',
-                'null' => true
+                'null' => true,
             ],
             'updated_at' => [
                 'type' => 'TIMESTAMP',
-                'null' => true
+                'null' => true,
             ],
         ]);
-        $this->forge->addPrimaryKey('user_id');
-        $this->forge->createTable('users');
+        $this->forge->addPrimaryKey('site_id');
+        $this->forge->createTable('sites');
     }
 
     public function down()
     {
-        $this->forge->dropTable('users');
+        $this->forge->dropTable('sites');
     }
 }

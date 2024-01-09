@@ -42,6 +42,11 @@ if(isset($_SESSION['isLoggedIn'])){
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="<?php echo base_url('/dashboard'); ?>">Dashboard</a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="<?php echo base_url('sites'); ?>">Sites</a>
+                            </li>
+                        </ul>
                         <div class="d-flex">
                             <ul class="navbar-nav">
                                 <?php if($loggedIn==True):?>

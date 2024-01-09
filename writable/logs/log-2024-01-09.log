@@ -1,0 +1,43 @@
+ERROR - 2024-01-09 21:58:41 --> mysqli_sql_exception: Failed to open the referenced table 'sites' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\app\Database\Migrations\2024-01-08-193857_AddFavouritesTable.php(32): CodeIgniter\Database\Forge->createTable()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(873): App\Database\Migrations\AddFavouritesTable->up()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-09 22:00:10 --> mysqli_sql_exception: Unknown table 'ci_4_crud.favourites' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\app\Database\Migrations\2024-01-08-193857_AddFavouritesTable.php(37): CodeIgniter\Database\Forge->dropTable()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(873): App\Database\Migrations\AddFavouritesTable->down()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(295): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\MigrateRollback.php(86): CodeIgniter\Database\MigrationRunner->regress()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-01-09 22:00:23 --> mysqli_sql_exception: Failed to open the referenced table 'sites' in C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\app\Database\Migrations\2024-01-08-193857_AddFavouritesTable.php(32): CodeIgniter\Database\Forge->createTable()
+#5 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(873): App\Database\Migrations\AddFavouritesTable->up()
+#6 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate()
+#7 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest()
+#8 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run()
+#9 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\vendor\codeigniter4\framework\system\CLI\Console.php(46): CodeIgniter\CLI\Commands->run()
+#10 C:\Users\oliwo\OneDrive - Blackdown Education Partnership\codeigniter4\ci-4-user-login-registration\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+INFO - 2024-01-09 22:35:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
